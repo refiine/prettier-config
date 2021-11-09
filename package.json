@@ -1,0 +1,46 @@
+{
+  "name": "@refiine/prettier-config",
+  "version": "0.0.0",
+  "description": "Sharable config for Prettier",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint '.prettierrc.js' --ignore-pattern '!.prettierrc.js'",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refiine/prettier-config.git"
+  },
+  "author": {
+    "name": "Neil Sweeney",
+    "email": "neil@wolfiezero.com",
+    "url": "https://wolfiezero.com"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "bugs": {
+    "url": "https://github.com/refiine/prettier-config/issues"
+  },
+  "homepage": "https://github.com/refiine/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "@wolfiezero/eslint-config": "^0.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unicorn": "^27.0.0",
+    "np": "7.4.*",
+    "prettier": "^2.2.1"
+  }
+}
