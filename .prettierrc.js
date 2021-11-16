@@ -16,4 +16,12 @@ module.exports = {
   htmlWhitespaceSensitivity: 'css',
   vueIndentScriptAndStyle: false,
   endOfLine: 'lf',
+  overrides: [
+    {
+      files: ['*.json', '.*.js'],
+      options: {
+        tabWidth: 2,
+      },
+    },
+  ],
 };
